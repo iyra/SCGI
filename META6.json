@@ -12,5 +12,5 @@
     "SCGI::Request"    : "lib/SCGI/Request.pm6",
     "SCGI::Response"   : "lib/SCGI/Response.pm6"
   },
-  "source-url"  : "git://github.com/supernovus/SCGI.git"
+  "source-url"  : "git://github.com/iyra/SCGI.git"
 }
