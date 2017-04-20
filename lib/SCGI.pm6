@@ -21,11 +21,13 @@ has $.multithread = False; ## Set to true for asynchronous concurrent requests.
 
 method connect (:$port=$.port, :$addr=$.addr)
 {
+  say 'hello';
   $!socket = IO::Socket::INET.new(
     :localhost($addr), 
     :localport($port), 
     :listen
   );
+  say 'goodbye';
 }
 
 method accept () 
